@@ -1,0 +1,454 @@
+2026-07-07 17:27:19 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 17:27:19 | INFO     | mock_exchange.py | __init__ | Mock Exchange initialized
+2026-07-07 17:27:19 | INFO     | mock_exchange.py | place_order | Processing order request
+2026-07-07 17:27:19 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 17:27:19.739586
+==================================
+2026-07-07 17:27:20 | INFO     | mock_exchange.py | place_order | Order completed
+2026-07-07 17:27:20 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 263759
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 108326.46
+Message          : Order executed successfully
+====================================
+2026-07-07 17:47:03 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 17:47:03 | INFO     | mock_exchange.py | __init__ | Mock Exchange initialized
+2026-07-07 17:47:03 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 17:47:03 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 17:47:03 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : LIMIT
+Quantity    : 0.01
+Price       : 105000.0
+Created     : 2026-07-07 17:47:03.603619
+==================================
+2026-07-07 17:47:03 | INFO     | mock_exchange.py | place_order | Processing order request
+2026-07-07 17:47:03 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : LIMIT
+Quantity    : 0.01
+Price       : 105000.0
+Created     : 2026-07-07 17:47:03.603619
+==================================
+2026-07-07 17:47:04 | INFO     | mock_exchange.py | place_order | Order completed
+2026-07-07 17:47:04 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 368746
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 105000.0
+Message          : Order executed successfully
+====================================
+2026-07-07 17:47:04 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 17:47:04 | INFO     | order_service.py | get_balance | Requesting account balance...
+2026-07-07 17:47:04 | INFO     | mock_exchange.py | get_balance | Fetching balance
+2026-07-07 17:49:56 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 17:49:57 | INFO     | mock_exchange.py | __init__ | Mock Exchange initialized
+2026-07-07 17:49:57 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 17:50:12 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 17:50:12 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : LIMIT
+Quantity    : 0.01
+Price       : 108000.0
+Created     : 2026-07-07 17:50:12.538947
+==================================
+2026-07-07 17:50:12 | INFO     | mock_exchange.py | place_order | Processing order request
+2026-07-07 17:50:12 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : LIMIT
+Quantity    : 0.01
+Price       : 108000.0
+Created     : 2026-07-07 17:50:12.538947
+==================================
+2026-07-07 17:50:13 | INFO     | mock_exchange.py | place_order | Order completed
+2026-07-07 17:50:13 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 883520
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 108000.0
+Message          : Order executed successfully
+====================================
+2026-07-07 17:50:13 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 18:10:44 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 18:10:44 | INFO     | mock_exchange.py | __init__ | Mock Exchange initialized
+2026-07-07 18:10:44 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 18:11:22 | INFO     | order_service.py | get_balance | Requesting account balance...
+2026-07-07 18:11:22 | INFO     | mock_exchange.py | get_balance | Fetching balance
+2026-07-07 18:11:35 | INFO     | order_service.py | get_positions | Requesting positions...
+2026-07-07 18:11:35 | INFO     | mock_exchange.py | get_positions | Fetching positions
+2026-07-07 18:11:51 | INFO     | order_service.py | cancel_order | Cancel request: 123456
+2026-07-07 18:11:51 | WARNING  | mock_exchange.py | cancel_order | Order 123456 not found
+2026-07-07 18:12:02 | INFO     | order_service.py | cancel_order | Cancel request: 1
+2026-07-07 18:12:02 | WARNING  | mock_exchange.py | cancel_order | Order 1 not found
+2026-07-07 18:43:27 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 18:43:27 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 18:43:27 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 18:44:13 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 18:44:13 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 18:44:13.482467
+==================================
+2026-07-07 18:44:13 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 18:44:13 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 18:44:13.482467
+==================================
+2026-07-07 18:44:14 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 18:44:14 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 460813
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 105599.21
+Message          : Order filled successfully
+====================================
+2026-07-07 18:44:14 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 18:44:27 | INFO     | order_service.py | get_positions | Requesting positions...
+2026-07-07 18:44:27 | INFO     | mock_exchange.py | get_positions | Fetching open positions
+2026-07-07 18:44:36 | INFO     | order_service.py | get_balance | Requesting account balance...
+2026-07-07 18:44:36 | INFO     | mock_exchange.py | get_balance | Fetching account balance
+2026-07-07 18:45:16 | INFO     | order_service.py | cancel_order | Cancel request: 483920
+2026-07-07 18:45:16 | INFO     | mock_exchange.py | cancel_order | Cancel request received: 483920
+2026-07-07 18:45:16 | WARNING  | mock_exchange.py | cancel_order | Order not found
+2026-07-07 18:45:50 | INFO     | order_service.py | cancel_order | Cancel request: 460813
+2026-07-07 18:45:50 | INFO     | mock_exchange.py | cancel_order | Cancel request received: 460813
+2026-07-07 18:45:50 | INFO     | mock_exchange.py | cancel_order | Order cancelled successfully
+2026-07-07 21:13:38 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 21:13:38 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 21:13:38 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 21:14:42 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 21:14:42 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 21:14:42.426140
+==================================
+2026-07-07 21:14:42 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 21:14:42 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 21:14:42.426140
+==================================
+2026-07-07 21:14:43 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 21:14:43 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 253132
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 107653.2
+Message          : Order filled successfully
+====================================
+2026-07-07 21:14:43 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 21:15:11 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 21:15:11 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 21:15:11 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 21:15:52 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 21:15:52 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETHUSDT
+Side        : SELL
+Type        : LIMIT
+Quantity    : 0.1
+Price       : 2500.0
+Created     : 2026-07-07 21:15:52.312306
+==================================
+2026-07-07 21:15:52 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 21:15:52 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETHUSDT
+Side        : SELL
+Type        : LIMIT
+Quantity    : 0.1
+Price       : 2500.0
+Created     : 2026-07-07 21:15:52.312306
+==================================
+2026-07-07 21:15:53 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 21:15:53 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 521176
+Symbol           : ETHUSDT
+Status           : FILLED
+Executed Qty     : 0.1
+Average Price    : 2500.0
+Message          : Order filled successfully
+====================================
+2026-07-07 21:15:53 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 21:46:24 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 21:46:24 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 21:46:24 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 21:46:24 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 21:46:24 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 21:46:24.926773
+==================================
+2026-07-07 21:46:24 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 21:46:24 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 21:46:24.926773
+==================================
+2026-07-07 21:46:25 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 21:46:25 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 636497
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 103924.07
+Message          : Order filled successfully
+====================================
+2026-07-07 21:46:25 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 21:46:25 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 21:46:25 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 21:46:25 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 21:46:25 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETHUSDT
+Side        : SELL
+Type        : LIMIT
+Quantity    : 0.1
+Price       : 3500.0
+Created     : 2026-07-07 21:46:25.959497
+==================================
+2026-07-07 21:46:25 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 21:46:25 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETHUSDT
+Side        : SELL
+Type        : LIMIT
+Quantity    : 0.1
+Price       : 3500.0
+Created     : 2026-07-07 21:46:25.959497
+==================================
+2026-07-07 21:46:26 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 21:46:26 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 681687
+Symbol           : ETHUSDT
+Status           : FILLED
+Executed Qty     : 0.1
+Average Price    : 3500.0
+Message          : Order filled successfully
+====================================
+2026-07-07 21:46:26 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 21:46:26 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 21:46:26 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 21:46:26 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 21:46:26 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 21:46:26.985282
+==================================
+2026-07-07 21:46:26 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 21:46:26 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 21:46:26.985282
+==================================
+2026-07-07 21:46:27 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 21:46:27 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 904142
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 107971.67
+Message          : Order filled successfully
+====================================
+2026-07-07 21:46:27 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 21:46:27 | INFO     | order_service.py | cancel_order | Cancel request: 904142
+2026-07-07 21:46:27 | INFO     | mock_exchange.py | cancel_order | Cancel request received: 904142
+2026-07-07 21:46:27 | INFO     | mock_exchange.py | cancel_order | Order cancelled successfully
+2026-07-07 23:21:20 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 23:21:21 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 23:21:21 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 23:21:21 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 23:21:21 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 23:21:21.605091
+==================================
+2026-07-07 23:21:21 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 23:21:21 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 23:21:21.605091
+==================================
+2026-07-07 23:21:22 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 23:21:22 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 765845
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 105421.23
+Message          : Order filled successfully
+====================================
+2026-07-07 23:21:22 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 23:21:22 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 23:21:22 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 23:21:22 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 23:21:22 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETHUSDT
+Side        : SELL
+Type        : LIMIT
+Quantity    : 0.1
+Price       : 3500.0
+Created     : 2026-07-07 23:21:22.668085
+==================================
+2026-07-07 23:21:22 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 23:21:22 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETHUSDT
+Side        : SELL
+Type        : LIMIT
+Quantity    : 0.1
+Price       : 3500.0
+Created     : 2026-07-07 23:21:22.668085
+==================================
+2026-07-07 23:21:23 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 23:21:23 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 374823
+Symbol           : ETHUSDT
+Status           : FILLED
+Executed Qty     : 0.1
+Average Price    : 3500.0
+Message          : Order filled successfully
+====================================
+2026-07-07 23:21:23 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 23:21:23 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 23:21:23 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 23:21:23 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 23:21:23 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 23:21:23.685953
+==================================
+2026-07-07 23:21:23 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 23:21:23 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : BTCUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.01
+Created     : 2026-07-07 23:21:23.685953
+==================================
+2026-07-07 23:21:24 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 23:21:24 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 364552
+Symbol           : BTCUSDT
+Status           : FILLED
+Executed Qty     : 0.01
+Average Price    : 99229.89
+Message          : Order filled successfully
+====================================
+2026-07-07 23:21:24 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 23:21:24 | INFO     | order_service.py | cancel_order | Cancel request: 364552
+2026-07-07 23:21:24 | INFO     | mock_exchange.py | cancel_order | Cancel request received: 364552
+2026-07-07 23:21:24 | INFO     | mock_exchange.py | cancel_order | Order cancelled successfully
+2026-07-07 23:24:50 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 23:24:50 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 23:24:50 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-07 23:25:33 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-07 23:25:33 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.02
+Created     : 2026-07-07 23:25:33.245801
+==================================
+2026-07-07 23:25:33 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-07 23:25:33 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ETUSDT
+Side        : BUY
+Type        : MARKET
+Quantity    : 0.02
+Created     : 2026-07-07 23:25:33.245801
+==================================
+2026-07-07 23:25:34 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-07 23:25:34 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 322735
+Symbol           : ETUSDT
+Status           : FILLED
+Executed Qty     : 0.02
+Average Price    : 109533.83
+Message          : Order filled successfully
+====================================
+2026-07-07 23:25:34 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-07 23:59:17 | INFO     | logger.py | setup_logger | Logger initialized successfully.
+2026-07-07 23:59:18 | INFO     | mock_exchange.py | __init__ | Mock Futures Exchange started
+2026-07-07 23:59:18 | INFO     | order_service.py | __init__ | OrderService initialized.
+2026-07-08 00:00:11 | INFO     | order_service.py | place_order | Starting order placement...
+2026-07-08 00:00:11 | INFO     | order_service.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ERUSDT
+Side        : BUY
+Type        : LIMIT
+Quantity    : 0.09
+Price       : 3000.0
+Created     : 2026-07-08 00:00:11.704182
+==================================
+2026-07-08 00:00:11 | INFO     | mock_exchange.py | place_order | Received order request
+2026-07-08 00:00:11 | INFO     | mock_exchange.py | place_order | ========== ORDER REQUEST ==========
+Symbol      : ERUSDT
+Side        : BUY
+Type        : LIMIT
+Quantity    : 0.09
+Price       : 3000.0
+Created     : 2026-07-08 00:00:11.704182
+==================================
+2026-07-08 00:00:12 | INFO     | mock_exchange.py | place_order | Order executed
+2026-07-08 00:00:12 | INFO     | mock_exchange.py | place_order | ========== ORDER RESPONSE ==========
+Success          : True
+Order ID         : 438937
+Symbol           : ERUSDT
+Status           : FILLED
+Executed Qty     : 0.09
+Average Price    : 3000.0
+Message          : Order filled successfully
+====================================
+2026-07-08 00:00:12 | INFO     | order_service.py | place_order | Order completed successfully.
+2026-07-08 00:00:17 | INFO     | order_service.py | get_balance | Requesting account balance...
+2026-07-08 00:00:17 | INFO     | mock_exchange.py | get_balance | Fetching account balance
+2026-07-08 00:00:26 | INFO     | order_service.py | get_positions | Requesting positions...
+2026-07-08 00:00:26 | INFO     | mock_exchange.py | get_positions | Fetching open positions
+2026-07-08 00:00:46 | INFO     | order_service.py | cancel_order | Cancel request: 438937
+2026-07-08 00:00:46 | INFO     | mock_exchange.py | cancel_order | Cancel request received: 438937
+2026-07-08 00:00:46 | INFO     | mock_exchange.py | cancel_order | Order cancelled successfully
